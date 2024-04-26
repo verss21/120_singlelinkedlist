@@ -149,3 +149,10 @@ int main() {
 				cout << "Data Berhasil Ditambahkan" << endl;
 				system("pause");
 				system("cls");
+			case 2:
+				if (listEmpty())
+				{
+					cout << "List Kosong" << endl;
+					system("pause");
+					system("cls");
+				}
