@@ -100,3 +100,8 @@ void traverse() {
 	else {
 		Node* currentNode = START;
 		while (currentNode != NULL) {
+			cout << "NIM : " << currentNode->noMhs << ", Nama : " << currentNode->name << endl;
+			currentNode = currentNode->next;
+		}
+	}
+}
