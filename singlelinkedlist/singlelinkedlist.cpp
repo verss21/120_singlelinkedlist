@@ -140,3 +140,12 @@ int main() {
 			cout << "3. Tampilkan data" << endl;
 			cout << "4. Cari data" << endl;
 			cout << "5. Keluar" << endl;
+			cout << "Pilihan : ";
+			cin >> pilihan;
+			switch (pilihan)
+			{
+			case 1:
+				addNode();
+				cout << "Data Berhasil Ditambahkan" << endl;
+				system("pause");
+				system("cls");
